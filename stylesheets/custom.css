@@ -1,0 +1,20 @@
+h1 {
+    color: #bf360c;
+    border-bottom: 2px solid #bf360c;
+    padding-bottom: 5px;
+    font-weight: 800;
+}
+
+h2 {
+    color: #e64a19;
+}
+
+.md-typeset strong {
+    color: #d84315;
+}
+
+.md-typeset blockquote {
+    border-left-color: #ff9800;
+    background-color: #fff3e0;
+    color: #424242;
+}
