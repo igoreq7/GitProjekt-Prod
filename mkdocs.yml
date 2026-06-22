@@ -1,0 +1,34 @@
+site_name: Dokumentacja treningu biegacza średniodystansowego
+theme:
+  name: material
+  palette:
+    # Motyw jasny
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Przełącz na tryb ciemny
+    # Motyw ciemny
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Przełącz na tryb jasny
+extra_css:
+  - stylesheets/custom.css
+nav:
+  - Strona Główna i Temat: index.md
+  - Teoria Biegowa: tresc.md
+  - Przykłady Treningów: przyklady.md
+  - Autorzy i Organizacja: autorzy.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
